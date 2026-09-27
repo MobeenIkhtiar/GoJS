@@ -40,7 +40,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "node npm-gfp-build.js",
+    "build": "node init && node npm-gfp-build.js",
     "dts": "node npm-gfp-dts.js"
   },
   "author": "Northwoods Software"
